@@ -11,4 +11,4 @@ async def on_ready():
 async def Guigay(ctx):
     await ctx.send('O Gui foi chamado de gay dnv pelo {cts.author}')
 
-client.run('ODc4MzEwMTU2NjA4MzcyODA3.YR_UEw.aL_3UKDkK9Op8x9M-MmVY7tkov0')
+client.run('')
