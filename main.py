@@ -14,9 +14,10 @@ async def Guigay(ctx):
     await ctx.send(f'O Gui foi chamado de gay dnv pelo {ctx.author}')
 
 @client.command()
-async def d20(ctx):
-    await ctx.send({ctx.author} "Resultado:" {random.randint(1,20))
+async def d(ctx, numero):
+    dado = random.randint(1,int(numero))
+    await ctx.send(f'{ctx.author} Resultado: {dado}')
 
 
 
-client.run('ODc4MzEwMTU2NjA4MzcyODA3.YR_UEw.WFMpAreZ1OJjUe_d3puS-S5czsw')
+client.run('ODc4MzEwMTU2NjA4MzcyODA3.YR_UEw.Dgi0SYRPuhPa-t8Gpu1PtbtzBf8')
