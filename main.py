@@ -1,7 +1,9 @@
 import discord
-from discord.ext import comands
+from discord.ext import commands
+from discord.ext.commands import has_permissions
+import random
 
-client = commands.Bot(command_prexif = ":", case_insenstive = True)
+client = commands.Bot(command_prefix = ">", case_insenstive = True)
 
 @client.event
 async def on_ready():
@@ -9,6 +11,12 @@ async def on_ready():
 
 @client.command()
 async def Guigay(ctx):
-    await ctx.send('O Gui foi chamado de gay dnv pelo {cts.author}')
+    await ctx.send(f'O Gui foi chamado de gay dnv pelo {ctx.author}')
 
-client.run('')
+@client.command()
+async def d20(ctx):
+    await ctx.send({ctx.author} "Resultado:" {random.randint(1,20))
+
+
+
+client.run('ODc4MzEwMTU2NjA4MzcyODA3.YR_UEw.WFMpAreZ1OJjUe_d3puS-S5czsw')
