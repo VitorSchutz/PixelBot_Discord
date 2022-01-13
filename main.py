@@ -29,4 +29,4 @@ async def d(ctx, numero):
 
 
 
-client.run('ODc4MzEwMTU2NjA4MzcyODA3.YR_UEw.Dgi0SYRPuhPa-t8Gpu1PtbtzBf8')
+client.run('')
